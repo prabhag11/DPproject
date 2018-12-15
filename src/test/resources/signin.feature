@@ -1,6 +1,6 @@
 Feature:
   Scenario: something
 
-    Given
+    Given I enter url as d3dsecurity.co.uk
     When
     Then
