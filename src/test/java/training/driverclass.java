@@ -21,9 +21,7 @@ public class driverclass {
         } else if (browser.equalsIgnoreCase("FIREFOX")) {
             FirefoxDriverManager.getInstance().setup();
         }
-
     }
-
     public void closedriver() {
         driver.quit();
     }
